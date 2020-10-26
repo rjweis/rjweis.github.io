@@ -1,0 +1,28 @@
+<nav class="topnav" id="myTopnav">
+  <div id="myPages">
+    <a href="/">HOME</a>
+    <a href="/about.html">ABOUT</a>
+    <a href="/projects.html">PROJECTS</a>
+    <a href="/blog.html">BLOG</a>
+    <a href="/Resume_RW_web.pdf">CV</a>
+  </div>
+  <div id="myIcons">
+    <a href="https://www.linkedin.com/in/ryanweisner/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/rjweis" class="fa fa-github"></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</nav>
+
+<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>

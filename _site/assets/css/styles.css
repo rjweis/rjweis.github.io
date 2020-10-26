@@ -1,0 +1,37 @@
+.profile-pic { width: 250px; border-radius: 50%; }
+
+html { background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("iceland_bg.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+.topnav { position: fixed; top: 0; left: 0; right: 0; height: 50px; align-items: center; box-shadow: 0 0 25px 0 black; background-color: white; z-index: 10; }
+
+.topnav #myPages a { font-family: sans-serif; float: left; display: block; color: black; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px; }
+
+.topnav #myIcons a { float: left; color: black; padding: 14px 16px; text-decoration: none; text-align: none; font-size: none; }
+
+.topnav #myPages a:hover, .topnav #myIcons a:hover { background-color: #ddd; color: black; }
+
+.topnav a.active { background-color: #4CAF50; color: white; }
+
+.topnav #myIcons .icon { display: none; }
+
+/* Collapse navbar to hamburger when screen too small */
+@media screen and (max-width: 600px) { .topnav #myPages a, .topnav #myIcons a:not(.icon) { display: none; } .topnav #myIcons a.icon { display: inline-block; } }
+
+/* Nav bar expands vertically on click */
+@media screen and (max-width: 600px) { .topnav.responsive { height: auto; width: 100%; box-shadow: 0 0 25px 0 black; position: relative; display: block; padding-top: 36px; } .topnav.responsive a.icon { position: fixed; left: 0; top: 0; } .topnav.responsive #myPages, .topnav.responsive #myIcons { position: relative; } .topnav.responsive #myPages a, .topnav.responsive #myIcons a:not(.icon) { float: none; display: block; align-items: center; text-align: center; padding: 12px; transition: 0.2s; } }
+
+.home { align-items: center; text-align: center; padding-top: 100px; }
+
+.home * { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+body { margin: 0; }
+
+.txt-padding { padding: 0 10%; }
+
+.txt-center { text-align: center; }
+
+.reviews p, .reviews h3 { padding: 0 10%; text-align: center; }
+
+.tableauPlaceholder { margin: 20px auto; }
+
+/*# sourceMappingURL=styles.css.map */
