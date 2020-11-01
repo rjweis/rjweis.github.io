@@ -1,9 +1,28 @@
-.txt-padding {
-    padding: 0 10%;
+.home * {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.txt-center {
-    text-align: center;
+.home h1 {
+    font-size: 72px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.home h2 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.txt-padding {
+    padding: 0 20%;
+}
+
+.font-size p {
+    font-size: 24px;
+}
+
+.align-left p {
+    text-align: left;
 }
 
 .reviews h1, .reviews h3, .reviews p {
