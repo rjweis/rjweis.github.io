@@ -32,6 +32,8 @@ body { margin: 0; }
 
 .txt-padding { padding: 0 20%; }
 
+@media screen and (max-width: 600px) { .txt-padding { padding: 0 7.5%; } }
+
 .font-size p { font-size: 24px; }
 
 .align-left p { text-align: left; }
