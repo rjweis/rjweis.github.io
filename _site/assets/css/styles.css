@@ -30,22 +30,22 @@ body { margin: 0; }
 
 .home h2 { font-size: 48px; margin-top: 0; }
 
-.txt-padding { padding: 0 20%; }
-
-@media screen and (max-width: 600px) { .txt-padding { padding: 0 7.5%; } }
+.txt-margin { margin: 0 20%; }
 
 .font-size-24 p { font-size: 24px; }
 
 .font-size-20 p { font-size: 20px; }
 
-.align-left p { text-align: left; }
+.align-left p, .align-left h3 { text-align: left; }
 
-.reviews h1, .reviews h3 { padding: 0 10%; margin: 20px 10%; }
+.reviews h1, .reviews h3 { margin: 20px 20%; }
 
-.reviews p { padding: 0 10%; margin: 30px 10%; }
+.reviews p { margin: 30px 20%; /*need to add style when screen is small*/ }
+
+@media screen and (max-width: 600px) { .txt-margin { margin: 0 7.5%; } .reviews p { margin: 30px 7.5%; } .reviews h3 { margin: 20px 7.5%; } }
 
 .tableauPlaceholder { margin: 20px auto; }
 
-@media screen and (max-width: 800px) { .tableauViz { display: none; } }
+@media screen and (max-width: 800px) { .tableauViz { display: none; } .resume-placeholder { display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
