@@ -1,3 +1,9 @@
 .tableauPlaceholder {
     margin: 20px auto;
 }
+
+@media screen and (max-width: 800px) {
+    .tableauViz {
+        display:none;
+    }
+}
