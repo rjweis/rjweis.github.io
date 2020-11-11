@@ -2,11 +2,19 @@
 
 html { background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("iceland_bg.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
+#prac_pic { margin-left: auto; margin-right: auto; width: 500px; }
+
+#jaude { display: block; margin: 10px auto; width: 500px; }
+
+#jda { margin: 10px auto; width: 500px; }
+
 .topnav { position: fixed; top: 0; left: 0; right: 0; height: 50px; align-items: center; box-shadow: 0 0 25px 0 black; background-color: white; z-index: 10; }
 
 .topnav #myPages a { font-family: sans-serif; float: left; display: block; color: black; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px; }
 
 .topnav #myIcons a { float: left; color: black; padding: 14px 16px; text-decoration: none; text-align: none; font-size: none; }
+
+.topnav #myName a { font-family: sans-serif; float: right; display: block; color: black; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px; }
 
 .topnav #myPages a:hover, .topnav #myIcons a:hover { background-color: #ddd; color: black; }
 
@@ -38,7 +46,7 @@ body { margin: 0; }
 
 .align-left p, .align-left h3 { text-align: left; }
 
-.reviews h1, .reviews h3 { margin: 20px 20%; }
+.reviews h1, .reviews h2, .reviews h3 { margin: 20px 20%; }
 
 .reviews p { margin: 30px 20%; /*need to add style when screen is small*/ }
 

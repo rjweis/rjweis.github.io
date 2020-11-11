@@ -30,6 +30,17 @@
     font-size: none;
 }
 
+.topnav #myName a {
+  font-family: sans-serif;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 .topnav #myPages a:hover, .topnav #myIcons a:hover{
     background-color: #ddd;
     color: black;
