@@ -6,7 +6,7 @@ html { background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255
 
 #jaude { display: block; margin: 10px auto; width: 500px; }
 
-#jda { margin: 10px auto; width: 500px; }
+#jda { display: block; margin: 10px auto; width: 500px; }
 
 .topnav { position: fixed; top: 0; left: 0; right: 0; height: 50px; align-items: center; box-shadow: 0 0 25px 0 black; background-color: white; z-index: 10; }
 
@@ -50,7 +50,7 @@ body { margin: 0; }
 
 .reviews p { margin: 30px 20%; /*need to add style when screen is small*/ }
 
-@media screen and (max-width: 600px) { .txt-margin { margin: 0 7.5%; } .reviews p { margin: 30px 7.5%; } .reviews h3 { margin: 20px 7.5%; } }
+@media screen and (max-width: 600px) { .txt-margin { margin: 0 7.5%; } .reviews p { margin: 30px 7.5%; } .reviews h3 { margin: 20px 7.5%; } #prac_pic { margin: 20px 7.5%; width: 250px; } #jaude { margin: 20px auto; width: 250px; } #jda { margin: 20px auto; width: 250px; } }
 
 .tableauPlaceholder { margin: 20px auto; }
 
