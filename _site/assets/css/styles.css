@@ -1,12 +1,16 @@
 .profile-pic { width: 250px; border-radius: 50%; }
 
-html { background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("iceland_bg.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.opaque-bg { background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("iceland_bg.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#prac_pic { margin-left: auto; margin-right: auto; width: 500px; }
+.clear-bg { background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("iceland_bg.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#jaude { display: block; margin: 10px auto; width: 500px; }
+.standalone-img { margin-left: auto; margin-right: auto; width: 500px; }
 
-#jda { display: block; margin: 10px auto; width: 500px; }
+.adjacent-img { display: block; margin: 5px auto; width: 500px; }
+
+.img-container { margin: 30px auto; }
+
+@media screen and (max-width: 600px) { .standalone-img { width: 250px; } .adjacent-img { width: 250px; } }
 
 .topnav { position: fixed; top: 0; left: 0; right: 0; height: 50px; align-items: center; box-shadow: 0 0 25px 0 black; background-color: white; z-index: 10; }
 
@@ -28,15 +32,15 @@ html { background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255
 /* Nav bar expands vertically on click */
 @media screen and (max-width: 600px) { .topnav.responsive { height: auto; width: 100%; box-shadow: 0 0 25px 0 black; position: relative; display: block; padding-top: 36px; } .topnav.responsive a.icon { position: fixed; left: 0; top: 0; } .topnav.responsive #myPages, .topnav.responsive #myIcons { position: relative; } .topnav.responsive #myPages a, .topnav.responsive #myIcons a:not(.icon) { float: none; display: block; align-items: center; text-align: center; padding: 12px; transition: 0.2s; } }
 
-.home { align-items: center; text-align: center; padding-top: 100px; }
+.default { align-items: center; text-align: center; padding-top: 100px; }
 
 body { margin: 0; }
 
-.home * { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+.default * { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-.home h1 { font-size: 72px; margin-bottom: 0; margin-top: 10px; }
+.default h1 { font-size: 72px; margin-bottom: 0; margin-top: 10px; }
 
-.home h2 { font-size: 48px; margin-top: 0; }
+.default h2 { font-size: 48px; margin-top: 0; }
 
 .txt-margin { margin: 0 20%; }
 
@@ -48,9 +52,15 @@ body { margin: 0; }
 
 .reviews h1, .reviews h2, .reviews h3 { margin: 20px 20%; }
 
-.reviews p { margin: 30px 20%; /*need to add style when screen is small*/ }
+.reviews h3 { font-size: 36px; }
 
-@media screen and (max-width: 600px) { .txt-margin { margin: 0 7.5%; } .reviews p { margin: 30px 7.5%; } .reviews h3 { margin: 20px 7.5%; } #prac_pic { margin: 20px 7.5%; width: 250px; } #jaude { margin: 20px auto; width: 250px; } #jda { margin: 20px auto; width: 250px; } }
+.reviews p { margin: 30px 20%; }
+
+.testimonial { font-style: italic; }
+
+.reviews p.caption { margin: 0 auto; font-size: 12px; font-style: italic; text-align: center; }
+
+@media screen and (max-width: 600px) { .txt-margin { margin: 0 7.5%; } .reviews p { margin: 30px 7.5%; } .reviews h3 { margin: 20px 7.5%; } .reviews p.caption { margin: 0 7.5%; } }
 
 .tableauPlaceholder { margin: 20px auto; }
 
